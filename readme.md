@@ -1,4 +1,4 @@
-# Simple Guessin Game
+# Simple Guessing Game
 ## This is a simple guessing game, that takes words and hints.
 You may find an API that provides json in this format: 
 ```json
