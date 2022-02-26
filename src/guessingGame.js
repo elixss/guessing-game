@@ -1,9 +1,9 @@
-window.onload = async () => {
+window.onload = () => {
   var arrayOfWords = [];
 
   const reqUrl =
     "urlToYourAPI"; // add the url of your api here
-  const request = await fetch(reqUrl, {
+  fetch(reqUrl, {
     method: "GET",
   })
   .then(async (response) => await response.json())
