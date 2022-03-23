@@ -6,8 +6,8 @@ window.onload = () => {
   fetch(reqUrl, {
     method: "GET",
   })
-  .then(async (response) => await response.json())
-  .then((data) => {
+  .then(response => response.json())
+  .then(data => {
     console.log(data);
     for (const [key, value] of Object.entries(data)) {
       arrayOfWords.push(value);
